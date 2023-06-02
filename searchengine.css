@@ -1,0 +1,57 @@
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #FFA500;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 22.5%;
+    left: 38.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFA500;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #FFA500;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #FFA500;
+    color: white;
+}
+ 
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+img{
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
